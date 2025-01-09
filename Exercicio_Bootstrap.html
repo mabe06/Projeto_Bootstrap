@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria EBAC</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+    <style>
+        .fundo {
+            padding-top:5px;
+            background-color: #dd6604;
+            text-align: center;
+           
+            margin: 0 auto;
+           
+            color:#fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="fundo">
+        <h1>Confeitaria EBAC</h1>
+    </header>
+
+    <div id="carousel-exemplo" class="carousel carousel-fade slide"data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <div data-bs-interval="1000" class="carousel-item active">
+                <img class="d-block w-100" src="./10-pexels-silvia-trigo-545701-1857157.jpg">
+                
+            </div>
+
+            <div  data-bs-interval="1000" class="carousel-item">
+                <img class="d-block w-100" src="./pexels-mathieu-89382700-9068414.jpg">
+               
+            </div>
+            <div  data-bs-interval="1000" class="carousel-item">
+                <img class="d-block w-100" src="./12-pexels-fu-zhichao-176355-587737.jpg">
+                
+            </div>
+        </div>
+
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo"  class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+       </div>
+ </div>
+
+    <!-- Grid com Cards -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="./01-pexels-chiecharon-1027811.jpg" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolos</h5>
+                        <p class="card-text">Que tal transformar seus momentos especiais em verdadeiras celebrações?<br> 
+                            <br>
+                            Nossos bolos são feitos com ingredientes de alta qualidade, um toque de carinho e muito sabor!</p>
+
+                          <p>📅 Encomende agora!</p>
+                        <a href="#" class="btn btn-primary">+ Informações</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="./02-pexels-karina-ustiuzhanina-313369745-14122685.jpg" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Salgados</h5>
+                        <p class="card-text">Nada como salgados fresquinhos e deliciosos para alegrar o seu dia?<br> 
+                            <br>
+                            Seja para um lanche rápido, uma reunião com amigos ou aquele evento especial, eles são a escolha perfeita!</p>
+                            <p>📅 Encomende agora!</p>
+                            <a href="#" class="btn btn-primary">+ Informações</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="./03-torta-doce-pexels-catscoming-835741.jpg" class="card-img-top" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tortas doces</h5>
+                        <p class="card-text">Está buscando uma sobremesa especial para surpreender?<br>
+                            <br>
+                            Nossas tortas doces são a escolha perfeita para adoçar qualquer momento!
+                            <br>
+                            <p>📅 Encomende agora!</p>
+                        <a href="#" class="btn btn-primary">+ Informações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>       
+    
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
